@@ -1,3 +1,4 @@
+Note:- Second Revision
 
 Open Hardware Monitor Report
 
@@ -19,36 +20,36 @@ Sensors
 +- MSI MS-16P8 (/mainboard)
 |
 +- Intel Core i5-9300H (/intelcpu/0)
-|  +- Bus Speed      :      100      100  100.007 (/intelcpu/0/clock/0)
-|  +- CPU Core #1    :  2400.01  2400.01  4000.28 (/intelcpu/0/clock/1)
-|  +- CPU Core #2    :  2400.01  2400.01  4000.28 (/intelcpu/0/clock/2)
-|  +- CPU Core #3    :  2400.01  2400.01  3700.26 (/intelcpu/0/clock/3)
-|  +- CPU Core #4    :  2400.01  2400.01  4000.28 (/intelcpu/0/clock/4)
-|  +- CPU Core #1    :       48       47       63 (/intelcpu/0/temperature/0)
-|  +- CPU Core #2    :       47       47       56 (/intelcpu/0/temperature/1)
-|  +- CPU Core #3    :       46       46       56 (/intelcpu/0/temperature/2)
-|  +- CPU Core #4    :       45       44       64 (/intelcpu/0/temperature/3)
-|  +- CPU Package    :       48       48       64 (/intelcpu/0/temperature/4)
-|  +- CPU Total      : 0.769234 0.769234     6.25 (/intelcpu/0/load/0)
-|  +- CPU Core #1    :  1.53846  1.53846       25 (/intelcpu/0/load/1)
-|  +- CPU Core #2    : 0.769234        0  13.1035 (/intelcpu/0/load/2)
-|  +- CPU Core #3    :        0        0  1.72414 (/intelcpu/0/load/3)
-|  +- CPU Core #4    : 0.769234        0  4.13793 (/intelcpu/0/load/4)
-|  +- CPU Package    :  6.64095  6.37347  20.8677 (/intelcpu/0/power/0)
-|  +- CPU Cores      :  2.81377  2.48715  15.3982 (/intelcpu/0/power/1)
-|  +- CPU Graphics   : 0.0274404 0.0195864 0.341811 (/intelcpu/0/power/2)
-|  +- CPU DRAM       :  1.05734  1.05734  1.31613 (/intelcpu/0/power/3)
+|  +- Bus Speed      :  100.001      100  100.002 (/intelcpu/0/clock/0)
+|  +- CPU Core #1    :  2400.01     2400  4000.07 (/intelcpu/0/clock/1)
+|  +- CPU Core #2    :  2400.01     2400  4000.07 (/intelcpu/0/clock/2)
+|  +- CPU Core #3    :  2400.01  2400.01  4000.01 (/intelcpu/0/clock/3)
+|  +- CPU Core #4    :  2400.01  2400.01  4000.01 (/intelcpu/0/clock/4)
+|  +- CPU Core #1    :       40       40       57 (/intelcpu/0/temperature/0)
+|  +- CPU Core #2    :       40       40       48 (/intelcpu/0/temperature/1)
+|  +- CPU Core #3    :       39       39       48 (/intelcpu/0/temperature/2)
+|  +- CPU Core #4    :       37       37       53 (/intelcpu/0/temperature/3)
+|  +- CPU Package    :       41       41       57 (/intelcpu/0/temperature/4)
+|  +- CPU Total      :  1.53846 0.390625     6.25 (/intelcpu/0/load/0)
+|  +- CPU Core #1    :  4.61538        0       25 (/intelcpu/0/load/1)
+|  +- CPU Core #2    : 0.769234        0  7.69231 (/intelcpu/0/load/2)
+|  +- CPU Core #3    :        0        0  12.1986 (/intelcpu/0/load/3)
+|  +- CPU Core #4    : 0.769234        0  6.92308 (/intelcpu/0/load/4)
+|  +- CPU Package    :  8.63592  4.18855  18.8537 (/intelcpu/0/power/0)
+|  +- CPU Cores      :  2.36498  2.36498  13.3472 (/intelcpu/0/power/1)
+|  +- CPU Graphics   : 0.0179606        0 0.210653 (/intelcpu/0/power/2)
+|  +- CPU DRAM       :  1.03411 0.944144  1.21138 (/intelcpu/0/power/3)
 |
 +- Generic Memory (/ram)
-|  +- Memory         :  33.3759  33.3759  33.4377 (/ram/load/0)
-|  +- Used Memory    :  7.96038  7.96038  7.97513 (/ram/data/0)
-|  +- Available Memory :  15.8903  15.8756  15.8903 (/ram/data/1)
+|  +- Memory         :  26.2357  26.2222  26.2506 (/ram/load/0)
+|  +- Used Memory    :   6.2574  6.25419  6.26096 (/ram/data/0)
+|  +- Available Memory :  17.5933  17.5897  17.5965 (/ram/data/1)
 |
 +- NVIDIA NVIDIA GeForce GTX 1050 (/nvidiagpu/0)
-|  +- GPU Core       :      873      873     1354 (/nvidiagpu/0/clock/0)
-|  +- GPU Memory     :     3504     3504     3504 (/nvidiagpu/0/clock/1)
-|  +- GPU Shader     :     1746     1746     2708 (/nvidiagpu/0/clock/2)
-|  +- GPU Core       :       43       43       43 (/nvidiagpu/0/temperature/0)
+|  +- GPU Core       :      683      683     1354 (/nvidiagpu/0/clock/0)
+|  +- GPU Memory     :      810      810     3504 (/nvidiagpu/0/clock/1)
+|  +- GPU Shader     :     1366     1366     2708 (/nvidiagpu/0/clock/2)
+|  +- GPU Core       :       36       36       36 (/nvidiagpu/0/temperature/0)
 |  +- GPU Core       :        0        0        0 (/nvidiagpu/0/load/0)
 |  +- GPU Frame Buffer :        0        0        0 (/nvidiagpu/0/load/1)
 |  +- GPU Video Engine :        0        0        0 (/nvidiagpu/0/load/2)
@@ -57,15 +58,15 @@ Sensors
 |  +- GPU Memory Free :     4021     4021     4021 (/nvidiagpu/0/smalldata/1)
 |  +- GPU Memory Used :       75       75       75 (/nvidiagpu/0/smalldata/2)
 |  +- GPU Memory Total :     4096     4096     4096 (/nvidiagpu/0/smalldata/3)
-|  +- GPU PCIE Rx    :        0        0  39.0625 (/nvidiagpu/0/throughput/0)
-|  +- GPU PCIE Tx    :        0        0  8.78906 (/nvidiagpu/0/throughput/1)
+|  +- GPU PCIE Rx    :        0        0    31.25 (/nvidiagpu/0/throughput/0)
+|  +- GPU PCIE Tx    :        0        0  9.76563 (/nvidiagpu/0/throughput/1)
 |
 +- WDC WD5000BPVT-75HXZT3 (/hdd/0)
-|  +- Temperature    :       33       33       33 (/hdd/0/temperature/0)
-|  +- Used Space     :  81.6266  81.6266  81.6266 (/hdd/0/load/0)
+|  +- Temperature    :       24       24       24 (/hdd/0/temperature/0)
+|  +- Used Space     :  81.6288  81.6288  81.6288 (/hdd/0/load/0)
 |
 +- Generic Hard Disk (/hdd/1)
-|  +- Used Space     :  79.8271  79.8271  79.8271 (/hdd/1/load/0)
+|  +- Used Space     :  79.5499  79.5499  79.5499 (/hdd/1/load/0)
 
 --------------------------------------------------------------------------------
 
@@ -592,65 +593,65 @@ Number of Cores: 4
 Threads per Core: 2
 Timer Frequency: 10 MHz
 Time Stamp Counter: Invariant
-Estimated Time Stamp Counter Frequency: 2400.17 MHz
-Estimated Time Stamp Counter Frequency Error: 0.21121 Mhz
+Estimated Time Stamp Counter Frequency: 2400.04 MHz
+Estimated Time Stamp Counter Frequency Error: 0.048 Mhz
 Time Stamp Counter Frequency: 2400.01 MHz
 
 MSR Core #1
 
  MSR       EDX       EAX
  000000CE  0008083B  F1011800
- 00000198  000027E8  00002900
- 0000019C  00000000  882F0002
+ 00000198  000028DD  00002900
+ 0000019C  00000000  883B0000
  000001A2  00000000  05640000
- 000001B1  00000000  88250002
+ 000001B1  00000000  882F0000
  00000606  00000000  000A0E03
- 00000611  00000000  1F5FF2E3
- 00000619  00000000  0533D0E4
- 00000639  00000000  1A5D6C7F
- 00000641  00000000  008EBD7C
+ 00000611  00000000  045B16A8
+ 00000619  00000000  006082D8
+ 00000639  00000000  039CE3D3
+ 00000641  00000000  000B5766
 
 MSR Core #2
 
  MSR       EDX       EAX
  000000CE  0008083B  F1011800
- 00000198  000027EA  00002900
- 0000019C  00000000  88300000
+ 00000198  000028D4  00002900
+ 0000019C  00000000  883A0000
  000001A2  00000000  05640000
- 000001B1  00000000  88250002
+ 000001B1  00000000  882F0000
  00000606  00000000  000A0E03
- 00000611  00000000  1F5FF2E3
- 00000619  00000000  0533D0E4
- 00000639  00000000  1A5D6C9D
- 00000641  00000000  008EBD7C
+ 00000611  00000000  045B16A8
+ 00000619  00000000  006082D8
+ 00000639  00000000  039CE3EC
+ 00000641  00000000  000B5766
 
 MSR Core #3
 
  MSR       EDX       EAX
  000000CE  0008083B  F1011800
- 00000198  000027F8  00002900
- 0000019C  00000000  88310002
+ 00000198  000027A5  00002900
+ 0000019C  00000000  883B0000
  000001A2  00000000  05640000
- 000001B1  00000000  88250002
+ 000001B1  00000000  882F0000
  00000606  00000000  000A0E03
- 00000611  00000000  1F5FF2E3
- 00000619  00000000  0533D0E4
- 00000639  00000000  1A5D6CB0
- 00000641  00000000  008EBD7C
+ 00000611  00000000  045B16A8
+ 00000619  00000000  006082D8
+ 00000639  00000000  039CE422
+ 00000641  00000000  000B5766
 
 MSR Core #4
 
  MSR       EDX       EAX
  000000CE  0008083B  F1011800
- 00000198  000027FE  00002900
- 0000019C  00000000  88250000
+ 00000198  000027F3  00002900
+ 0000019C  00000000  882F0000
  000001A2  00000000  05640000
- 000001B1  00000000  88250002
+ 000001B1  00000000  882F0000
  00000606  00000000  000A0E03
- 00000611  00000000  1F5FF2E3
- 00000619  00000000  0533D0E4
- 00000639  00000000  1A5D6CC2
- 00000641  00000000  008EBD7C
+ 00000611  00000000  045B16A8
+ 00000619  00000000  006082D8
+ 00000639  00000000  039CE436
+ 00000641  00000000  000B5766
 
 Microarchitecture: KabyLake
 Time Stamp Counter Multiplier: 24
@@ -697,20 +698,20 @@ Thermal Settings
  Sensor[0].Controller: GPU_INTERNAL
  Sensor[0].DefaultMinTemp: 0
  Sensor[0].DefaultMaxTemp: 127
- Sensor[0].CurrentTemp: 43
+ Sensor[0].CurrentTemp: 36
  Sensor[0].Target: GPU
 
 Clocks
 
- Clock[8]: 3504000
+ Clock[8]: 405000
  Clock[9]: 11
- Clock[10]: 571428
+ Clock[10]: 277777
  Clock[11]: 1
- Clock[30]: 1746000
+ Clock[30]: 303000
  Clock[31]: 17
- Clock[32]: 1695000
+ Clock[32]: 1088000
  Clock[33]: 25
- Clock[34]: 1569000
+ Clock[34]: 1088000
  Clock[35]: 25
  Clock[36]: 810000
  Clock[37]: 25
@@ -718,17 +719,17 @@ Clocks
  Clock[41]: 1
  Clock[44]: 108000
  Clock[45]: 1
- Clock[62]: 3
+ Clock[62]: 1
  Clock[63]: 9
- Clock[92]: 3504000
+ Clock[92]: 405000
  Clock[93]: 32
- Clock[99]: 571428
+ Clock[99]: 277777
  Clock[100]: 32
- Clock[169]: 1736877
+ Clock[169]: 14826
  Clock[170]: 32
- Clock[176]: 1686254
+ Clock[176]: 14588
  Clock[177]: 15
- Clock[183]: 1559689
+ Clock[183]: 1240312
  Clock[184]: 15
  Clock[190]: 810000
  Clock[191]: 6
@@ -736,7 +737,7 @@ Clocks
  Clock[205]: 32
  Clock[218]: 108000
  Clock[219]: 32
- Clock[281]: 3
+ Clock[281]: 1
  Clock[282]: 32
 
 Tachometer
@@ -781,32 +782,32 @@ Firmware version: 03.01A03
 
  ID Description                        Raw Value    Worst Value Thres Physical
  01 Read Error Rate                    000000000000 200   200   51    -       
- 03 Spin-Up Time                       690600000000 177   187   21    -       
- 04 Start/Stop Count                   BC3300000000 87    87    0     13244   
+ 03 Spin-Up Time                       F70600000000 177   184   21    -       
+ 04 Start/Stop Count                   E03300000000 87    87    0     13280   
  05 Reallocated Sectors Count          000000000000 200   200   140   -       
  07 Seek Error Rate                    000000000000 200   200   0     -       
- 09 Power-On Hours (POH)               7D2300000000 88    88    0     9085    
+ 09 Power-On Hours (POH)               892300000000 88    88    0     9097    
  0A Spin Retry Count                   000000000000 100   100   0     -       
  0B Recalibration Retries              000000000000 100   100   0     -       
- 0C Power Cycle Count                  B22200000000 92    92    0     8882    
+ 0C Power Cycle Count                  C42200000000 92    92    0     8900    
  BF G-sense Error Rate                 403900000000 1     1     0     -       
- C0 Emergency Retract Cycle Count      360100000000 200   200   0     -       
- C1 Load Cycle Count                   2B9901000000 166   166   0     -       
- C2 Temperature                        210000000000 94    114   0     33      
+ C0 Emergency Retract Cycle Count      350100000000 200   200   0     -       
+ C1 Load Cycle Count                   949901000000 166   166   0     -       
+ C2 Temperature                        190000000000 94    122   0     25      
  C4 Reallocation Event Count           000000000000 200   200   0     -       
  C5 Current Pending Sector Count       000000000000 200   200   0     -       
  C6 Uncorrectable Sector Count         000000000000 253   100   0     -       
  C7 UltraDMA CRC Error Count           000000000000 200   200   0     -       
  C8 Write Error Rate                   000000000000 253   100   0     -       
- F0 Head Flying Hours                  091800000000 92    92    0     -       
- F1 Total LBAs Written                 107502710600 200   200   0     -       
- F2 Total LBAs Read                    D56E1A4A0A00 200   200   0     -       
+ F0 Head Flying Hours                  0E1800000000 92    92    0     -       
+ F1 Total LBAs Written                 904C04710600 200   200   0     -       
+ F2 Total LBAs Read                    CE1D1F4A0A00 200   200   0     -       
  FE Free Fall Protection               000000000000 200   200   0     -       
 
 Logical drive name: D:\
 Format: NTFS
 Total size: 500105736192
-Total free space: 91886501888
+Total free space: 91875233792
 
 --------------------------------------------------------------------------------
 
@@ -818,7 +819,4 @@ Firmware version: Unknown
 Logical drive name: C:\
 Format: NTFS
 Total size: 494051258368
-Total free space: 99664457728
-
-
-Note:- Initial commit 
+Total free space: 101034188800
